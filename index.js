@@ -11,6 +11,7 @@ function takeANumber(katzDeliLine, Ada){
 }
 
 var takeANumber = function (katzDeliLine, newCustomer){
+  console.log(katzDeliLine);
   if (katzDeliLine.length > 0);
   katzDeliLine.push(newCustomer);
   return ('Welcome, ' + newCustomer +'. You are number ' + katzDeliLine.length+' in line.')
